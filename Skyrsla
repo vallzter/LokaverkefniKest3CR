@@ -18,9 +18,9 @@ Kláraði Vlans fyrir vörðuskóla, hafnafjörð, háteigsveg, kláraði einnig
 fyrir management vlön á switchum og default gateway, subinterfaces fyrir vörðu routerinn í 
 vörðu og ip fyrir þau. Gerði subinterfaces fyrir hfj router, kláraði að setja allar ip tölurnar á routera, routing fyrir hfj klárað.Ssh 
 fyrir Hafnafjord, hateigsveg og Vörðu switcha, password fyrir hfj og vörðu á switcha, default gateway fyrir hfj og háteigsveg switcha, 
-management ip fyrir hateigsveg og hfj switcha, router rip fyrir Varða-Main, Skólavarða-internal og skólavarða-Edge, setti svo password-encryption
-á hfj, hateigsveg og Vörðu switcha til að bæta security, kláraði dhcp server á skólavarða-internal með öllum pools, static route fyrir hfj, hát og 
-skólavarða-edge routerana. Fékk svo net fyrir allar pc tölvurnar.
+management ip fyrir hateigsveg og hfj switcha, router rip fyrir Varða-Main, Skólavarða-internal og skólavarða-Edge, setti svo 
+password-encryption á hfj, hateigsveg og Vörðu switcha til að bæta security, kláraði dhcp server á skólavarða-internal með öllum pools, 
+static route fyrir hfj, hateigsveg og skólavarða-edge routerana. Fékk svo net fyrir allar pc tölvurnar.
 
 
 
