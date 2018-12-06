@@ -6,25 +6,25 @@ Búið að teikna upp flest allt, næst er að láta allt virka og finna ip töl
 Kláraði að teikna allt upp, missti af seinasta tíma. Búið að finna ip tölur fyrir flest allt. Næsta tíma ætla ég að klára ip tölurnar 
 og byrja setja allt upp og byrja að configurea.
 
-3.12.18
-ip tölur komnar, byrjaður að configurea switcha og routera. Læri heima aðeins
+2.12.18
+ip tölur komnar, byrjaður að configurea switcha og routera. Næst ætla ég að byrja á vlans.
 
 4.12.18
 Bjó til vlön fyrir allar skólastöfur, starfsmenn og management í vörðuskóla og gerði öll trunk fyrir vlön í vörðuskóla.
 Kláraði líka sub interfaces á hfj routernum og setti ip tölurnar á alla routerana. Kláraði Vlans fyrir vörðuskóla, hafnafjörð, háteigsveg, kláraði einnig trunking þar sem það átti við. Setti ip tölurnar 
 fyrir management vlön á switchum og default gateway, subinterfaces fyrir vörðu routerinn í
-vörðu og ip fyrir þau. Næst vinn ég heima og byrja á sub-interfaces
+vörðu og ip fyrir þau. Næst þarf ég að klára routerana og 
 
 05.12.18
 Gerði subinterfaces fyrir hfj router, kláraði að setja allar ip tölurnar á routera, routing fyrir hfj klárað.Ssh 
 fyrir Hafnafjord, hateigsveg og Vörðu switcha, password fyrir hfj og vörðu á switcha, default gateway fyrir hfj og háteigsveg switcha, 
-management ip fyrir hateigsveg og hfj switcha, router rip fyrir Varða-Main, Skólavarða-internal og skólavarða-Edge, setti svo 
-password-encryption á hfj, hateigsveg og Vörðu switcha til að bæta security, kláraði dhcp server á skólavarða-internal með öllum pools, 
-static route fyrir hfj, hateigsveg og skólavarða-edge routerana. Fékk svo net fyrir allar pc tölvurnar.
+management ip fyrir hateigsveg og hfj switcha, router ripv2 fyrir Varða-Main, Skólavarða-internal og skólavarða-Edge, setti svo 
+password-encryption nokkra switcha til að fylla security kröfur, kláraði dhcp server á skólavarða-internal með öllum pools, 
+static route fyrir hfj, hateigsveg og skólavarða-edge routerana. Fékk svo net fyrir allar pc tölvurnar gegnum dhcp. Get pingað á milli.
 
 
 6.12.18
-Á eftir að gera DNS server.
+Á eftir að klára alla serverana Og Internetið.
 
 
 
