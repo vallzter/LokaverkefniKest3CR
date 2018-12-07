@@ -1,0 +1,58 @@
+﻿
+Þar sem ég setti password setti ég það : pass.123 eins og úr fyrri verkefnum
+Allar pc tölvur fengu dhcp ip tölur
+
+ip tölur:
+Varða-Skólavarða			10.10.0.0 - 10.10.0.3 /30
+SkólavarðaInternal-SkólavarðaEdge	10.10.0.4 - 10.10.0.7 /30
+S4/0-s0/0 SkólavarðaEdge-HafnarfjörðurEdge 1			10.10.0.8 - 10.10.0.11 /30
+S5/0-s1/0 SkólavarðaEdge-HafnarfjörðurEdge 2			10.10.0.12 - 10.10.0.15 /30
+S3/0-s0/0 SkólavarðaEdge-HáteigsvegurEdge 1			10.10.0.16 - 10.10.0.19 /30
+S2/0-s1/0 SkólavarðaEdge-HáteigsvegurEdge 2			10.10.0.20 - 10.10.0.23 /30
+
+1hæð	Management ip 192.168.99.9
+2hæð	Management ip 192.168.99.10
+3hæð	Management ip 192.168.99.11
+---------------
+varda management ip 192.168.99.12
+VLAN 699	192.168.99.0 - 192.168.99.63 
+Hafnarfjörður:
+starfsmenn hfj	192.168.10.128 - 192.168.10.191 /26 Management ip 192.168.99.133
+hafnafjordur Management ip 192.168.99.134
+-----------------------------------------------------
+Háteigsvegur:
+Hateigsvegur starfsmenn 192.168.10.192 - 192.168.10.255 /25 Management ip 192.168.99.197 /26
+main Management ip 192.168.99.198
+--------------------------------------------------------		
+Server Net: /26
+Á eftir að klára dns server ip address
+Starfsmenn 192.168.254.2 255.255.255.192
+----------------------
+Management Net:/26
+Vörðuskoli	192.168.99.0 - 192.168.99.63 /26
+Aðalskoli	192.168.99.64 - 192.168.99.127 /26
+Hafnarfjörður 192.168.99.128 - 192.168.99.191 /26
+Háteigsvegur 192.168.99.192 - 192.178.99.255 /26
+----------------------------------------------------
+Starfsmanna Net:/26
+Vörðu	192.168.10.0 - 192.168.10.63 /26
+---
+Aðal	192.168.10.64 - 192.168.10.127 /26
+--
+Hafnafjordur	192.168.10.128 - 192.168.10.191 /26
+---
+Hát	192.168.10.192 - 192.178.10.255 /26
+-------------------------------------------------
+IP routes:	
+Hafnarfjörður
+192.168.64.0 255.255.240.0
+192.168.99.128 255.255.255.192
+-----------------------------------------------
+Hateigsvegur	
+192.168.128.0 255.255.240.0
+192.168.99.192 255.255.255.192
+
+
+ISP address fyrir internet
+203.1.1.1
+Á eftir að configurea fyrir internetið
